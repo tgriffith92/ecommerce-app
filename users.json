@@ -11,5 +11,10 @@
     "email": "gohan@dbz.com",
     "password": "songohan",
     "id": "163d12b5"
+  },
+  {
+    "email": "goku@dbz.com",
+    "password": "songoku",
+    "id": "b362dace"
   }
 ]
