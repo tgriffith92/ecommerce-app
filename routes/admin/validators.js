@@ -15,7 +15,7 @@ module.exports = {
 		.custom(async (email) => {
 			const existingUser = await usersRepo.getOneBy({ email });
 			if (existingUser) {
-				throw new Error('Email already in use');
+				throw new Error('Email in use');
 			}
 		}),
 	requirePassword: check('password')
@@ -49,7 +49,6 @@ module.exports = {
 		}
 
 		const validPassword = await usersRepo.comparePasswords(user.password, password);
-
 		if (!validPassword) {
 			throw new Error('Invalid password');
 		}

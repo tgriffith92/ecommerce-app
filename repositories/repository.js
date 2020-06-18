@@ -19,7 +19,7 @@ module.exports = class Repository {
 		attrs.id = this.randomId();
 
 		const records = await this.getAll();
-		records.push(attr);
+		records.push(attrs);
 		await this.writeAll(records);
 
 		return attrs;
@@ -49,7 +49,6 @@ module.exports = class Repository {
 	async delete(id) {
 		const records = await this.getAll();
 		const filteredRecords = records.filter((record) => record.id !== id);
-
 		await this.writeAll(filteredRecords);
 	}
 
@@ -58,7 +57,7 @@ module.exports = class Repository {
 		const record = records.find((record) => record.id === id);
 
 		if (!record) {
-			throw new Error(`Record with id ${id} not found.`);
+			throw new Error(`Record with id ${id} not found`);
 		}
 
 		Object.assign(record, attrs);

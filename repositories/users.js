@@ -8,9 +8,9 @@ const scrypt = util.promisify(crypto.scrypt);
 class UsersRepository extends Repository {
 	async comparePasswords(saved, supplied) {
 		const [ hashed, salt ] = saved.split('.');
-		const hashedSupplied = await scrypt(supplied, salt, 64);
+		const hashedSuppliedBuf = await scrypt(supplied, salt, 64);
 
-		return hashed === hashedSupplied.toString('hex');
+		return hashed === hashedSuppliedBuf.toString('hex');
 	}
 
 	async create(attrs) {
