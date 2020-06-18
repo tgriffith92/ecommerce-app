@@ -1,30 +1,35 @@
 [
-	{
-		"email": "test@test.com"
-	},
-	{
-		"email": "vegeta@dbz.com",
-		"password": "password",
-		"id": "c68aef61"
-	},
-	{
-		"email": "gohan@dbz.com",
-		"password": "songohan",
-		"id": "163d12b5"
-	},
-	{
-		"email": "goku@dbz.com",
-		"password": "songoku",
-		"id": "b362dace"
-	},
-	{
-		"email": "trunks@dbz.com",
-		"password": "c6c42da99865b2afd0f415cc8e28802c1d9a64375b5fcc8b33502aa17578cd3529ea6d6a47c694047309251d0943a1b3d80da22a8d886e939f9fb4ae0fdd769a.cc9a10608f894caf",
-		"id": "a1aac86e"
-	},
-	{
-		"email": "goten@dbz.com",
-		"password": "eaba0b789142ea407c7aae6c98acfadb2791e44fc4303b8451e8d6acea725173f90c3e378e5abbfcb74c933da9ba0220dba073af544c9ef1c44fe7f2cb62bb88.344123f94f54e0ed",
-		"id": "7100e3b9"
-	}
+  {
+    "email": "test@test.com"
+  },
+  {
+    "email": "vegeta@dbz.com",
+    "password": "password",
+    "id": "c68aef61"
+  },
+  {
+    "email": "gohan@dbz.com",
+    "password": "songohan",
+    "id": "163d12b5"
+  },
+  {
+    "email": "goku@dbz.com",
+    "password": "songoku",
+    "id": "b362dace"
+  },
+  {
+    "email": "trunks@dbz.com",
+    "password": "c6c42da99865b2afd0f415cc8e28802c1d9a64375b5fcc8b33502aa17578cd3529ea6d6a47c694047309251d0943a1b3d80da22a8d886e939f9fb4ae0fdd769a.cc9a10608f894caf",
+    "id": "a1aac86e"
+  },
+  {
+    "email": "goten@dbz.com",
+    "password": "eaba0b789142ea407c7aae6c98acfadb2791e44fc4303b8451e8d6acea725173f90c3e378e5abbfcb74c933da9ba0220dba073af544c9ef1c44fe7f2cb62bb88.344123f94f54e0ed",
+    "id": "7100e3b9"
+  },
+  {
+    "email": "broly@dbz.com",
+    "password": "cc739e94844c91341e74c6bbda84ea26fccf6c73cb05196b25e8750ca70cd08376607e74f115fce4a72e1d4e48d0ff15f3704666686ecb717865c859cb3a8109.1cd20d6dbaf7e4ba",
+    "id": "ec37a539"
+  }
 ]
